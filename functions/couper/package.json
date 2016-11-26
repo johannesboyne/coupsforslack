@@ -1,0 +1,14 @@
+{
+  "name": "couper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johannes Boyne <johannes@boyne.de>",
+  "license": "MIT",
+  "dependencies": {
+    "geojson-utils": "^1.1.0"
+  }
+}
