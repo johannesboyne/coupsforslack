@@ -13,7 +13,7 @@ exports.handle = function(e, ctx, cb) {
       // process json
       const scooters    = JSON.parse(json)
       // office location
-      const refPoint    = {type: 'Point', coordinates:[13.4074892, 52.5233866]};
+      const refPoint    = {type: 'Point', coordinates:[13.406578, 52.523839]};
       const pin         = 'pin-m-bicycle+8cc'
       const mapstyle    = 'mapbox.streets'
       const mapboxURL1  = 'https://api.tiles.mapbox.com/v4/'+mapstyle+'/'
